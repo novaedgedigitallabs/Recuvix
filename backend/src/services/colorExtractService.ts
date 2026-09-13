@@ -1,4 +1,4 @@
-const Vibrant = require('node-vibrant/node');
+const Vibrant = require('node-vibrant');
 import { ThumbnailColors } from '../types';
 
 export async function extractColors(imageBuffer: Buffer, fallbackBgColor: string): Promise<ThumbnailColors> {

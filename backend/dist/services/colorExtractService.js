@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.extractColors = extractColors;
-const Vibrant = require('node-vibrant/node');
+const Vibrant = require('node-vibrant');
 async function extractColors(imageBuffer, fallbackBgColor) {
     try {
         const palette = await Vibrant.from(imageBuffer).getPalette();

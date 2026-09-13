@@ -10,5 +10,11 @@
         "dev": "npm run dev --workspaces --if-present",
         "build": "npm run build --workspaces --if-present",
         "start": "npm run start --workspaces --if-present"
+    },
+    "overrides": {
+        "qs": "^6.13.0",
+        "phin": "^3.7.1",
+        "file-type": "^16.5.4",
+        "postcss": "^8.5.3"
     }
 }

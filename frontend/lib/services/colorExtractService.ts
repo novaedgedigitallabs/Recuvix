@@ -2,7 +2,6 @@ import { ThumbnailColors } from '@/lib/types';
 
 export async function extractColors(imageBuffer: Buffer, fallbackBgColor: string): Promise<ThumbnailColors> {
     try {
-        // @ts-expect-error - node-vibrant lacks proper v3 types
         const Vibrant = (await import('node-vibrant')).default || (await import('node-vibrant'));
         const palette = await Vibrant.from(imageBuffer).getPalette();
 
