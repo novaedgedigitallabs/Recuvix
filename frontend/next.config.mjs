@@ -63,6 +63,7 @@ const nextConfig = {
             'lucide-react',
         ],
     },
+    serverExternalPackages: ['node-vibrant', '@jimp/custom', '@jimp/types', '@jimp/core'],
     transpilePackages: [
         'three',
         '@react-three/fiber',
