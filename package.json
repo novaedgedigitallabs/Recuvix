@@ -14,7 +14,8 @@
     "overrides": {
         "qs": "^6.13.0",
         "phin": "^3.7.1",
-        "file-type": "^16.5.4",
-        "postcss": "^8.5.3"
+        "file-type": "^12.4.2",
+        "postcss": "^8.5.3",
+        "esbuild": "^0.28.2"
     }
 }
